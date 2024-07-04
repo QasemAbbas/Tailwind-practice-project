@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- fontAwome -->
+     <script src="https://kit.fontawesome.com/1c44d444f0.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="main.css">
+     <title>News - Ticker AI</title>
+</head>
+
+<body class="bg-white dark:gray-900">
+     <header class="md:mx-14 my-4 py-2 px-2">
+          <nav class="container mx-auto md:flex justify-between items-center">
+               <div class="flex justify-center items-center">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    <p class="ml-5">A Mark Cuban Company
+                         <br>AI-based Financial Market News Aggregator
+                    </p>
+               </div>
+
+
+               <div class="flex justify-center items-center">
+                    <a href="index.html"> <button
+                              class="bg-[#5677AC] px-10 py-2 rounded-md text-white font-bold hover:bg-[#3a5b91] transition hover:scale-105 hover:translate-y-1">Personalize
+                              News</button>
+                    </a>
+                    <p
+                         class="bg-[#5677AC] rounded-full w-12 h-12 ml-3 flex justify-center items-center font-bold text-white hover:scale-105 transition-all cursor-pointer">
+                         IK</p>
+                    <button id="switch"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                              stroke-width="1.5" stroke="currentColor" class="size-6">
+                              <path stroke-linecap="round" stroke-linejoin="round"
+                                   d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                         </svg></button>
+               </div>
+          </nav>
+     </header>
+
+
+     <section class="bg-[#F0F0F0] md:px-0 px-4 w-full min-h-screen">
+          <section class="container mx-auto md:py-12 py-8">
+               <div
+                    class="flex items-center justify-between pb-1 md:pb-2.5 border-b border-b-[3px] border-black md:mx-16">
+                    <h3 class="md:text-2xl text-lg font-semibold uppercase text-[#333333]">Personolize your news</h3>
+               </div>
+
+               <div class="bg-white max-w-lg mx-auto md:mt-10 mt-6 p-8">
+                    <h3 class="font-semibold md:text-2xl text-lg text-center text-[
+                    #333333]">Select your Markets</h3>
+                    <div class="py-5 space-y-5">
+                         <p
+                              class="bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 deration-300 cursor-pointer">
+                              Stocks</p>
+                         <p
+                              class="bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 deration-300 cursor-pointer">
+                              Crypto</p>
+                         <p
+                              class="bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 deration-300 cursor-pointer">
+                              Economy & Business</p>
+                         <p
+                              class="bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 deration-300 cursor-pointer">
+                              Commodities | Forex</p>
+                         <p
+                              class="bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 deration-300 cursor-pointer">
+                              Fixed Income</p>
+                    </div>
+                    <button
+                         class="bg-blue-600 w-full rounded-lg text-white font-bold py-4 mb-8 hover:bg-blue-800 hover:scale-105 transition-all duration-300 cursor-pointer ">Continue</button>
+
+               </div>
+          </section>
+
+
+     </section>
+     <!--Footer Section-->
+     <footer class="text-black text-center font-medium text-1xl mb-5 mt-5 w-full">
+          All right reserved to TeckerAI - 2024
+     </footer>
+
+     </section>
+
+     <script>
+          const htmlTag = document.getElementById("htmlTag");
+          document.getElementById("switch").addEventListener('click', function (){
+               htmlTag.classList.toggle("dark");
+          })
+     </script>
+
+</body>
+
+</html>
